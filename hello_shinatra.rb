@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-	"Something new."
+	"<html><head><title>wait..</title><meta http-equiv='Refresh' content='0; URL=http://www.bluesky.org/'><body>Wait . . </body></html>"
 end
 
 get '/hi' do
